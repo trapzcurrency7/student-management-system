@@ -22,10 +22,10 @@ body {
 	</style>
 </head>
 <body>
-    <div class="container mt-5 login_form">
-        <div class="row justify-content-center">
+    <div class="container login_form">
+        <div class="row justify-content-center align-items-center vh-100">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" style="background: none; border:none">
                     <div class="card-body">
                         <h2 class="card-title text-center mb-4">Login</h2>
                         <form id="login-form" action="http://localhost/tisu/validation" method="POST">
@@ -46,14 +46,16 @@ body {
             </div>
         </div>
     </div>
-        <div class="container registrationForm mt-5">
-        <div class="row justify-content-center">
-            <div class="card">
+        <div class="container registrationForm" style="width: 500px">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="card w-81">
                     <div class="card-body">
-                        <h2 class="text-center">Registration Form</h2>
+                        <div class="">
+                            <h4 class="text-center">Registration Form</h4>
+                        </div>
                         <form class="mt-4" id="registrationForm" method="POST">
                             <div class="row justify-content-center">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="f_name" class="form-label">First Name</label>
                                     <input type="text" class="form-control" id="f_name" name="f_name" required>
@@ -71,7 +73,7 @@ body {
 
                                 <div id="response" class="mt-3"></div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="user_type" class="form-label">User</label>
                                     <select name="user_type" id="user_type" class="form-select">

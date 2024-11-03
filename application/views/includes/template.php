@@ -20,10 +20,15 @@
             flex: 1;
             padding: 20px;
         }
+        body{
+            background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            object-fit: contain;
+        }
+
     </style>
 </head>
 <body>
-    <div class="sidebar d-flex flex-column p-3">
+    <div class="sidebar d-flex flex-column p-3" style="opacity: 0.7">
         <h4><?= $this->session->userdata('user_name')?></h4>
         <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
@@ -58,7 +63,7 @@
             </li>
         </ul>
     </div>
-    <div class="content">
+    <div class="content pt-0 pr-0 m-0">
         <?php
     //     $var = 
     // print_r($view);

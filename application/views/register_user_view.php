@@ -1,5 +1,5 @@
 <div class="row justify-content-center">
-    <div class="card">
+    <div class="card" style="background: none; border:none">
         <div class="card-header">
             <div class="row">
                 <div class="col-md-6">

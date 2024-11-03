@@ -36,7 +36,7 @@
 <body>
 
 <div class="container">
-    <div class="card">
+    <div class="card " style="background: none; border:none">
         <div class='card-body text-center'>
             <div class="profile">
                 <div class="profile-image" id="profile-image">
