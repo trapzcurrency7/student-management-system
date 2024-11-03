@@ -66,7 +66,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">All Teacher</h5>
                                             <p class="card-text">Total (<?=$teacher_count?>).</p>
-                                            <a href="http://localhost/tisu/teacher" class="btn btn-primary">Go to Student</a>
+                                            <a href="http://localhost/tisu/teacher" class="btn btn-primary">Go to Teacher</a>
                                         </div>
                                     </div>
                                 </div>

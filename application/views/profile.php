@@ -43,10 +43,10 @@
                     <span class="initials" id="initials"></span>
                 </div>
                 <h3 id="username"><?=$this->session->userdata('user_name')?></h3>
-                <p id="email_d"><?=$this->session->userdata('email')?></p>
+                <b><p id="email_d"><?=$this->session->userdata('email')?></p></b>
             </div>
         </div>
-        <div class="card-body">
+        <div class="card-body pt-0">
             <form>
                 <div class="row justify-content-center">
                     <div class="col-md-6">
@@ -57,7 +57,7 @@
                         <input type="text" name="last_name" class="form-control" value="<?= $this->session->userdata('last_name')?>" id="last_name">
                         <label for=""  class="mt-3">Email</label>
                         <input type="text" name="email" class="form-control" value="<?= $this->session->userdata('email')?>" id="email">
-                        <label for=""  class="mt-3">Password</label>
+                        <label for=""  class="mt-3 text-white"><b>Password</b></label>
                         <input type="text" name="password" class="form-control" value="<?= $this->session->userdata('password')?>" id="password">
                     </div>
                 </div>

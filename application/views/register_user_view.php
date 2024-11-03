@@ -44,6 +44,9 @@
                 </div>
                 </div>
             </form>
+            <div class="row text-center text-danger mt-5">
+                <p><b>*The following user will have default password:123456</b></p>
+            </div>
         </div>
     </div>
 </div>
