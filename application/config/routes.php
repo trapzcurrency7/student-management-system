@@ -49,6 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+$route['default_controller'] = 'login_controller/login_view';
+
 $route['login'] = 'login_controller/login_view';
 $route['logout'] = 'login_controller/logout';
 
